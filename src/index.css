@@ -1,0 +1,23 @@
+:root {
+  --main-color: #22668a;
+}
+body {
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  background-color: var(--main-color);
+}
+.btn-primary {
+  background-color: var(--main-color);
+}
+
+.list-group-item.active {
+  background-color: var(--main-color);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
